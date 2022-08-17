@@ -66,6 +66,8 @@ print('Lambda return only one value')
 l=lambda b,c:[2,3,56,7]
 print(l(2,3))
 
+
+
 y=lambda :'hii'
 print(y())
 
@@ -77,7 +79,11 @@ print(t())
 # find out greatest number among 2 number using lambda within one line .
 print((lambda a,b:a if a>b else b)(10,23))
 
-print((lambda :'python is so  '+'  popular'))
+
+
+
+
+
 
 
 
