@@ -41,10 +41,10 @@ fun1(1)
 # Tail recursion
   # it means last.
    # A function is said to be tail recursive if no operations are pending to perforemd when the recursive function return to its caller.
-# A recursive function is called tail recursive if recursive is thelast thing doneby the function.
+# A recursive function is called tail recursive if recursive is the last thing done by the function.
 
 # NOTE-
-  # There is no need to k``eep record of previous task.
+  # There is no need to keep record of previous task.
 print('example of tail recursion')
 def fun(n):
     if n==3:
@@ -55,7 +55,7 @@ def fun(n):
 fun(1)
 
 #Non-tail recursion(Head recursion)
- # A  function is said to be non-tail recursive if some operations are pending to perforemd when the recursive function return to its caller.
+ # A  function is said to be non-tail recursive if some operations are pending to performed when the recursive function return to its caller.
  # After returning back , there is something left to evaluate.
 
  # NOTE-
