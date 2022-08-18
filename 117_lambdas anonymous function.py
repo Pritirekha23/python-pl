@@ -1,8 +1,12 @@
-# lambdas anonymous function
+# Lambdas anonymous function
  # lambda function is also known as anonymous function.
  # If we declare a function without any name such type of nameless function is called as lambda function or anonymous function .
  # Normal function is define using def keyword and lambda function is define using lambda keyword.
- # The main uses of lambda function is justfor one time use (i.e instant use)
+ # The main uses of lambda function is just for one time use (i.e instant use)
+ # A  lambda function can take any number of arguments, but can only have one expression.
+ #Lambda functions can take any number of arguments.
+
+
 
 # ex=1
 # addition of two numbers
@@ -66,6 +70,9 @@ print('Lambda return only one value')
 l=lambda b,c:[2,3,56,7]
 print(l(2,3))
 
+# also we can write like this
+l=lambda :[2,3,56,7]
+print(l())
 
 
 y=lambda :'hii'
@@ -78,12 +85,6 @@ print(t())
 
 # find out greatest number among 2 number using lambda within one line .
 print((lambda a,b:a if a>b else b)(10,23))
-
-
-
-
-
-
 
 
 
