@@ -2,7 +2,7 @@
   # It is a library function.
   # filter() is a function is used to filter value from a sequece.
   # It is a higher order function(If a function take function as an argument) .
-  
+  # we cant predict the output
 # ex-1
 # WAP TO FILTER ALL THE EVEN VALUE FROM A COLLECTION
 print(' filter functions without using lambda')
@@ -107,12 +107,13 @@ print(d.items())
 
 print('---')
 #daa=dict(filter(lambda x:x[0]%2==0,d.keys()))
-print(daa)  #TypeError: 'int' object is not subscriptabl --- > d.keys means only it will return key values so 
-
+print(daa)  #TypeError: 'int' object is not subscriptabl --- > d.keys means only it will return key values so  convert it into list bcz these are the individual elemets not the key elements
 
 daa=list(filter(lambda x:x%2==0,d.keys()))
 print(daa)
 
+
+# filter is important for INTYERVIEW
 
 
 
