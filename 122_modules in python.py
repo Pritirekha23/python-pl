@@ -5,11 +5,11 @@
 # Each and evry .py file is called module.
 
 
-import Hellocal122_123   # here we are importing Hellocalmmodules that means we can access all the members of Hellocal modules.
-print('123hellocal122')
-print(Hellocal122_123.add(2,3))
-print(Hellocal122_123.sub(100,20))
-print(Hellocal122_123.pi)
+import Hellocal122   # here we are importing Hellocalmmodules that means we can access all the members of Hellocal modules.
+print('hellocal122')
+print(Hellocal122.add(2,3))
+print(Hellocal122.sub(100,20))
+print(Hellocal122.pi)
 
 
   # TYPES OF MODULE
@@ -44,31 +44,31 @@ print('---cal mod--')
 
 # module aliasing
 #way-4
-import Hellocal122_123 as h  # here we are giving the alias name to Hellocal122_123 as h so we can now acess data by aloas name also
+import Hellocal122 as h  # here we are giving the alias name to Hellocal122_123 as h so we can now acess data by aloas name also
 print('123hellocal122')
 print(h.add(2,3))
 print(h.sub(100,20))
 print(h.pi)
-print(Hellocal122_123.pi)
+print(Hellocal122.pi)
 
 #DIFFERENT WAYS OF IMPORTING MODULES  ALIASING
 #1 way
 print('--way1--')
-from Hellocal122_123 import add
+from Hellocal122 import add
 #here we can acess only add function we cant access sub bcz it is not degfined
 print(add(2,4))
 
 #print(sub(7,3)) #error
 #2 way
 print('--way2--')
-from Hellocal122_123 import add,sub,mul
+from Hellocal122 import add,sub,mul
 print(add(2,4))
 print(sub(3,2))
 print(mul(2,4))
 
 print('--way3--')
 #here we can access everything from Hellocal122_123
-from Hellocal122_123 import*
+from Hellocal122 import*
 print(add(2,4))
 print(sub(3,2))
 print(mul(2,4))
@@ -79,11 +79,11 @@ print(pi)
 
 # module members aliasing
 print('member alising')
-from Hellocal122_123 import add as a
+from Hellocal122 import add as a
 print(a(2,3))
 
 print('---')
-from Hellocal122_123 import add as a,sub as s, pi as p,mul as m
+from Hellocal122 import add as a,sub as s, pi as p,mul as m
 print(a(2,4))
 print(s(2,1))
 print(m(3,2))
