@@ -1,6 +1,6 @@
 # function aliasing
  #it means set another name to function .
-
+# IF U WANT TO REUSE YOUR CODE THEN GO FOR FUNCTION
 
 print('-------')
 def calculations(a,b):
