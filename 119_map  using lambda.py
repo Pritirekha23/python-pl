@@ -35,7 +35,8 @@ print('square of each elemnt')
 t=(2,3,4,5,6)
 dt=tuple(map(lambda x:x*x,t))
 print(dt)
-
+print(type(t))
+print(type(dt))
 
 
 print('in one line find square')
@@ -80,7 +81,6 @@ for i in dr:
     print(i)
 # this map type  object , and u cant print directly but u can iterate it or ucan apply loop
 print(type(dr))
-
 
 # find the length of each words present inside a string
 msg='Today is my birthday'

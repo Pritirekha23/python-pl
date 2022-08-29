@@ -1,6 +1,6 @@
 # INTRODUCTION OF MODULE
  # reqirement of module
-   # If we wannt to reuse the code we can go for functions,but if we want to reuse group of variables,function and classes then we can go for module.
+   # If we want to reuse the code we can go for functions,but if we want to reuse group of variables,function and classes then we can go for module.
 # Module means collection of classes ,variables and functions and everything store .py file.
 # Each and evry .py file is called module.
 
@@ -26,10 +26,12 @@ print(math.factorial(3))
 
 
 #2> User defined modules
-  # The module which is created by user as per our requirement such type of module is called as user defind module.
+  # The module which is created by user as per our requirement such type of module is called as user defined module.
   #ex-hellomath,cal etcs
-
+from cal124 import*
 print('---cal mod--')
+print(add(2,3))
+print(sub(5,4))
 
 #3> 3rd party modules
  # These module provided by 3rd party vendor,it is available on internet so we have to download it by using pip.

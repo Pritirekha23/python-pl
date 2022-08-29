@@ -1,10 +1,10 @@
 #reduce function in python
-# It is used to reduce a sequrncr of rlrmrnts into single element.
+# It is used to reduce a sequence of elements into single element.
 # Reduce function present inside functools,so we have to import it before reduce function.
 # syntax
     # reduce(function,sequence)
       # function parameter-> it will reduce sequence of elements into a single element.
-# THIS REDUCE FUNCTION ID BY DEFSULT NOT SVSILSNLE IN THE USES SO WE HAVE TO  IMPORT IT
+# THIS REDUCE FUNCTION Is BY DEFAULT NOT AVAAILABLE , SO WE HAVE TO  IMPORT IT
 
 # It return the data based on the input data.
 
@@ -59,7 +59,7 @@ name=['JM','RM','Jin','TAe']
 v=reduce(lambda x,y:x+y,name)
 print(v)
 
-#hello will add in the beginning but we cant integer here
+#hello will add in the beginning but we cant provide integer here
 name=['JM','RM','Jin','TAe']
 v=reduce(lambda x,y:x+y,name,'hello')
 print(v)
