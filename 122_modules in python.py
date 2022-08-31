@@ -46,7 +46,7 @@ print(sub(5,4))
 
 # module aliasing
 #way-4
-import Hellocal122 as h  # here we are giving the alias name to Hellocal122_123 as h so we can now acess data by aloas name also
+import Hellocal122 as h  # here we are giving the alias name to Hellocal122_123 as h so we can now acess data by alias name also
 print('123hellocal122')
 print(h.add(2,3))
 print(h.sub(100,20))

@@ -8,3 +8,9 @@ if __name__=='__main__':
     print(__name__)
 else:
     print('mod1_131 executed indirectly')
+
+print('----')
+
+def sub(x,y):
+    print(x-y)
+print(__name__)

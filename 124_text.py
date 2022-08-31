@@ -12,7 +12,7 @@ from cal124 import x
 from data124 import x
 print(x)
 
-# Ordet is matter
+# Order is matter
 
 print('===')
 from data124 import x
