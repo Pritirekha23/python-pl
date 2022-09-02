@@ -5,3 +5,10 @@ if i in l:
         print("element exists in the list")
 else:
     print("Element not exists in the list")
+
+
+
+
+
+
+    
