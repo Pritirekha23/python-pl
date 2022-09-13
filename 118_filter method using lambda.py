@@ -113,7 +113,7 @@ daa=list(filter(lambda x:x%2==0,d.keys()))
 print(daa)
 
 
-# filter is important for INTYERVIEW
+# filter is important for INTERVIEW
 
 
 
