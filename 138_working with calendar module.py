@@ -44,9 +44,11 @@ print(c.isleap(2012))
 # leap days
 print(c.leapdays(2000,2022))
 #weekdays
+print('---')
 print(c.weekday(2022,9,7))
 print(c.weekday(2022,9,9))
 #weekheader
+print('----')
 print(c.weekheader(2))
 print(c.weekheader(1))
 print(c.weekheader(5))
@@ -61,9 +63,9 @@ print(c.calendar(2022))
 print('----')
 print(c.calendar(2020))
 #monthcalender
-# mon,tues,wed,thurs -> started from thursday
+
 print('---')
-print(c.monthcalendar(2022,9))
+print(c.monthcalendar(2022,9)) # mon,tues,wed,thurs -> started from thursday
 print(c.monthcalendar(2022,1))
 
 

@@ -26,6 +26,7 @@ print(math.floor(math.sqrt(144)))
 print(math.factorial(5))
 
 #removing -by default the output will be in float foramt
+print('----')
 print(math.fabs(-2))
 print(math.fabs(2))
 print(math.fabs(3.5))

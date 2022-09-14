@@ -70,7 +70,7 @@ var=random.sample(li,3)
 print(var)
 #print(help(random.sample))
 data=random.sample(range(10000000), 60)
-#print(data)
+print(data)
 
 
 
