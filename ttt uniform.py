@@ -1,6 +1,11 @@
-import random
-
-li=[10,20,30,40,50,60]
-data=random.sample(li,k=True+True*2)
-print(len(data))
-print(help(random.sample))
+a=[1,2,3]
+a=tuple(a)
+#a[0]=2
+#print(a)
+print(2**3+(5+6)**(1+1))
+print(4+2**5//10)
+print(11/2)
+print(5//3)
+L=['a','b','c','d']
+print("".join(L))
+print type(type(int))

@@ -7,7 +7,7 @@
 #exp()-it is used to calculate the power of e i.e e^y or we can say exponential of y
 #pow()-it first converts its arguments into float and then computes the power. function computes x**y 
   #log--
-#log()-it return the logarithmic value of a with base b.If the base is not given,the computed valuer is the natural log.
+#log()-it return the logarithmic value of a with base b.If the base is not given,the computed value is the natural log.
 #log2(a)-it computes the value of log a with base 2 .
 #log10(a)-it computes the value of log a with base 10.
 #sqrt()-it return the square root of a number
@@ -23,8 +23,6 @@
 
 # SPECIAL functions
   #gamma()-it is used to return the gamma value of the argument.
-
-
 
 import math
 print(math.ceil(3.2))
