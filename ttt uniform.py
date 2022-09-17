@@ -8,4 +8,4 @@ print(11/2)
 print(5//3)
 L=['a','b','c','d']
 print("".join(L))
-print type(type(int))
+#print type(type(int))

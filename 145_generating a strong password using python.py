@@ -21,3 +21,4 @@ digits='0123456789'
 sp_symbol="~!@#$%^&*()_+{}[]<>/|"
 for i in range(10):
     print(ra.choice(alpha),ra.choice(digits),ra.choice(sp_symbol),ra.choice(alpha),ra.choice(digits),ra.choice(sp_symbol),sep='')
+
