@@ -1,4 +1,3 @@
-from importlib import import_module
 import University.Staffs.nonteaching
 import University.Staffs.teaching
 import University.Students.Mtech
